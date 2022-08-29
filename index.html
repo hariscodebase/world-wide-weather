@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World wide weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="container">
+            <h1>World Wide Weather</h1>
+            <div id="wrapper">
+                <div class="search-input">
+                    <input type="text" name="city" id="city-input" placeholder="Type a city..">
+                    <div class="autocom-box">
+                        <!-- here the list of cities will be listed -->
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+        
+        
+                <section id="output">
+                    <!-- CITY NAME AND WEATHER ICON-->
+                    <h3>
+                        <span id="location"></span>
+                        Local Weather:
+                        <span id="w-icon"></span>
+                    </h3>
+        
+                    <!-- TEMPERATURE -->
+                    <p>Current temperature:
+                        <span id="temperature" class="displayText"></span>
+                    </p>
+        
+                    <!-- CONDITIONS -->
+                    <p>Current conditions:
+                        <span id="conditions" class="displayText"></span>
+                    </p>
+        
+                    <!-- SUNSET -->
+                    <p>Sunset:
+                        <span id="sunset" class="displayText"></span>
+                    </p>
+                </section>
+            </div>
+        </div>
+        
+    </div>
+    
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
