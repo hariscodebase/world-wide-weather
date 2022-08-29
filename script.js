@@ -85,7 +85,7 @@ function showWeather(city) {
                 temperatureEle.innerHTML = data.main.temp + " ºC";
                 conditionsEle.innerHTML = data.weather[0].main;
                 sunsetEle.innerHTML = new Date(data.sys.sunset * 1000).toLocaleTimeString();
-                outputSection.style.display = "block";
+                outputSection.style.visibility = "visible";
 
 
             } else {

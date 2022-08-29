@@ -20,7 +20,7 @@ body {
 
 .container {
     position: relative;
-    padding: 10% 0 10%;
+    padding: 5% 0 10%;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
@@ -145,7 +145,7 @@ p {
 }
 
 #output {
-    display: none;
+    visibility: hidden;
     width: 90%;
     margin: 4em auto;
     padding: 0px 20px;
